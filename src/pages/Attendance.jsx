@@ -23,7 +23,7 @@ const Attendance = () => {
   const [userInput, setUserInput] = useState('');
   const [searchResult, setSearchResult] = useState(null);
   const [showModal, setShowModal] = useState(false);
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(1);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
