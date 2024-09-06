@@ -25,8 +25,6 @@ useEffect(() => {
   }
 }, [data, verified, day]);
 
-// console.log(verifiedParticipants)
-
   return (
     <main>
       <section>
@@ -66,7 +64,7 @@ useEffect(() => {
               <LuBadgeDollarSign />
             </div>
             <h2 className="lg:text-[32px] md:text-[32px] text-[24px] font-[700]">
-              {2000 - data.length}
+              {2200 - data.length}
             </h2>
             <p className="text-[#708890]">Tickets left</p>
           </div>

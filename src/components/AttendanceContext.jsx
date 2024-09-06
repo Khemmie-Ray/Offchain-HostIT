@@ -4,7 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 const AttendanceContext = createContext();
 
 const AttendanceProvider = ({ children }) => {
-  const [day, setDay] = useState(0);
+  const [day, setDay] = useState(1);
 
   const { data: verified = [], error: verifiedError, refetch: refetchVerified } = useQuery({
     queryKey: ['verified'],
